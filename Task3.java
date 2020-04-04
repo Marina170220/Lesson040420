@@ -5,7 +5,7 @@ public class Task3 {
         String str = "The weather is fine";
         if (str.length() > 5) {
             System.out.println(str.substring(0, 3) + ", " + str.substring(str.length() - 3, str.length()));
-        } else for (char c = 0; c < str.length(); c++) {
+        } else for (int c = 0; c < str.length(); c++) {
             System.out.print(str.charAt(0));
         }
 
