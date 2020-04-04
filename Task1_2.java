@@ -11,6 +11,8 @@ public class Task1_2 {
         System.out.println("Task 2");
         System.out.println("First element: " + str.charAt(0));
         System.out.println("Last element: " + str.charAt(str.length() - 1));
-        System.out.println("Middle element: " + str.charAt((str.length() - 1) / 2));
+        if (str.length() % 2 != 0) {
+            System.out.println("Middle element: " + str.charAt((str.length() - 1) / 2));
+        }
     }
 }
