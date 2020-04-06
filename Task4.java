@@ -13,10 +13,8 @@ public class Task4 {
 
             for (int j = 0; j < 1000; j++) {
                 int bufferNumber = 48 + randomNumber.nextInt(57 - 49);
-                if (bufferNumber % 2 == 0) {
-                    if (i % 2 == 0) {
-                        symbol = (char) bufferNumber;
-                    }
+                if (bufferNumber % 2 == 0 && i % 2 == 0) {
+                    symbol = (char) bufferNumber;
                 }
             }
 
